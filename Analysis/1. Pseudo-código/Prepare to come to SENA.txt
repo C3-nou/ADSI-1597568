@@ -1,0 +1,25 @@
+1.3.	Program: Prepare to come to SENA.
+-	Environment: My house.
+-	Situation: Prepare for formation.
+-	Algorithm:
+Get out of my bed.
+I open my closet
+Buco towel and toiletries (soap, razor blade, shampoo, etc.).
+Take everything I need with my hands.
+Go with the cleaning implements to the bathroom.
+Open the bathroom door.
+Hang the towel on the wall rack.
+Open the shower door.
+Place the other toiletries in their designated location.
+Protocol or personal bath cycle.
+Get out of the shower.
+Use the towel to cover me.
+Place the laundry in the laundry basket.
+Go to my room.
+Look in the closet for clothes to wear.
+Dress cycle.
+Pack my computer, your loader and my notebook that are on my desk to my suitcase.
+Alert my mother to leave.
+Pull the bike out into the street.
+Get out and close the door.
+Fin.

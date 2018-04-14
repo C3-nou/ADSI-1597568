@@ -1,0 +1,17 @@
+1.2.	Program: Buy an ice cream.
+-	Environment: Door of my house.
+-	Location: Desire to buy an ice cream.
+Algorithm:
+Getting off the floor of the door by crowding my legs and arms.
+Walk into my room.
+Go and grab my wallet on my desk.
+See if I have enough money.
+Go back to the door.
+Go out for her.
+Turn me 90 degrees to the left.
+Walk in a straight line until you reach the corner store.
+Enter the store.
+Say hello to the shopkeeper and ask if she has ice cream.
+Buy that ice cream.
+Go back to the door of my house and eat it with my sister.
+Fin.

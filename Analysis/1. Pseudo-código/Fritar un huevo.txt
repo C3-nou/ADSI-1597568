@@ -1,0 +1,37 @@
+
+1.1.	Programa: Fritar un huevo de gallina.
+-	Entorno: En mi casa del comedor a la cocina y de vuelta.
+-	Situación: Tener hambre o deseo de comer un huevo frito.
+-	Algoritmo:
+Coger el control remoto de la televisión.
+Posicionar el control remoto de frente a la TV.
+Apagar la televisión con la tecla de encendido y apagado de la tele. 
+Dejar el control remoto en su sitio.
+Levantarme de mi asiento haciendo apoyo o anclaje con mis piernas.
+Ir caminando a la cocina de mi casa por el pasillo principal.
+Llegar a la cocina.
+Observar si están los materiales para fritar el huevo (huevos, cacerola, aceite, candela, estufa conectada a gas)
+Coger la candela.
+Abrir la llave de gas.
+Mover la perilla de la celda que quiero encender de la estufa y graduar la cantidad de gas a salir.
+Posicionar y encender la candela en dicha celda.
+Dejar la candela a algún lado de la estufa.
+Colocar la cacerola o sarten sobre la celda encendida de la estufa.
+Tomar una cuchara con mi mano desde los utensilios y dejarla a un lado de la estufa.
+Ir por el recipiente del aceite y llevarlo en mi mano disponible.
+Abrir la botella del aceite quitandole la tapa.
+Coger la cuchara y llenarla con el aceite.
+Depositar el aceite de la cuchara en el interior del sarten.
+Pasar por encima con la cuchara para repartir uniformemente el aceite.
+Dejar la cuchara y el frasco de aceite a un lado de la estufa.
+Tomar con la mano un huevo de gallina del panal.
+Romper el cascarón del huevo con uno de los bordes del sarten.
+Con las dos manos retirar cascarón y dejar caer el contenido del huevo sobre el saertén.
+Dejar que el huevo empiece fritarse.
+Tomar la cuchara otra vez y usarla como palanca en caso de que el huevo se empiece a pegar a la sartén.
+Cuando el huevo este frito a mi gusto, apago la celda de la estufa, cierro la llave del gas.
+Tomo un plato de la vajilla.
+Y meto el huevo en el interior de dicho plato.
+Tomar una cuchara limpia con mi mano.
+Y empezar a comer.
+Fin.

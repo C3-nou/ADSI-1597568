@@ -1,0 +1,31 @@
+1.1.	Programa: Ir al baño.
+
+-	Entorno: En mi casa a las cinco de la mañana.
+-	Situación: Ganas de ir al baño.
+-	Algoritmo:
+Despertarse.
+Entrar a un estado consciente.
+Abrir los ojos.
+Levantar el tronco y extremidades superiores.
+Introducir mi pie derecho en la sandalía correspondiente.
+Muevo mi tronco y extremidades superiores 90 grados a la derecha.
+Introduzco mi pierna Izquierda en la sandalía correspondiente.
+Colocar mi mano derecha sobre mi mesa de trabajo.
+Hacer anclaje con mis piernas y brazo derecho hasta levantarme.
+Cinco pasos hacia adelante.
+Voltearme 90 grados a la derecha.
+Quince pasos hacia adelante.
+Voltearme 90 grados a la derecha.
+Seis pasos hacia adelante.
+Orinar.
+Voltear mi cuerpo 180 grados.
+Cinco pasos hacia adelante.
+Voltearme 90 grados a la izquierda.
+Quince pasos hacia adelante.
+Voltearme 90 grados a la izquierda.
+Seis pasos hacia adelante.
+Voltear mi cuerpo 180 grados.
+Sentarme en la cama.
+Quitarme las sandalías.
+Ciclo opuesto a levantarme.
+Fin.
