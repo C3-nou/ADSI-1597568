@@ -1,0 +1,61 @@
+.primero{
+    background-color:grey;
+    flex-grow: 1;
+    font-family: 'Merriweather', serif;
+    background-image: none;
+}
+.segundo{
+    font-family: 'Merriweather', serif;
+    color: white;
+    background-image:url("file:///C:/Users/Cristian%20Cadavid/Desktop/Hoja%20de%20vida/img/fondo.png");
+    background-color: black;
+    flex-grow: 120;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+}
+.imagen{
+    padding: 0%;
+    margin: 0%;
+    height: 20rem;
+}
+
+.tamano{
+    width: 100vh;
+    float: left;
+
+}
+
+.card{
+    color: black;
+    width: 9rem;
+    height: 9rem;
+}
+.elemento1{
+    float: left;
+    margin: 1em;
+}
+.elemento2{
+    float: left;
+    margin: 1em;
+}
+.elemento3{
+    width: 12rem;
+    height: 9rem;
+    float: left;
+    margin: 1em;
+}
+.descarga{
+    color: black;
+}
+.encabezado{
+    text-align: center;
+}
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100vh;
+}
+

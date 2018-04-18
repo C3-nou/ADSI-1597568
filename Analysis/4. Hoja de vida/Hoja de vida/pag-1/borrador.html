@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Achievements and Javascript</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="../img/favicon.ico"/>
+</head>
+
+<body>
+  <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="../index.html">Curriculum Vitae</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="borrador.html">Achievements and Javascript<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+</nav>
+</div>
+<div id="calculadora">
+        <h1>Bienvenidos a la Calculadora de: </h1><br><em>Cristian Cadavid</em>
+      <p id="display" >
+            <input value="0" size="36" id="numerointroducido" type="text">
+          <span id="msj"></span>
+          <p>
+            <input type="text" id="memoria" value="0" size="30"></p>       </p>
+        <p id="teclas">
+            <button id="BotonMas">+</button>
+            <button id="BotonMenos">-</button>
+            <button id="BotonMult">*</button>
+            <button id="BotonDiv">/</button>
+            <button id="BotonTot">=</button>
+            <button id="BotonXeY">X<sup>y</sup></button>
+            <button id="BotonCuad">X<sup>2</sup></button>
+            <button id="Boton2eN">2<sup>n</sup></button>
+            <button id="BotonInvX">1/x</button>
+            <button id="BotonSqrt">sqrt<sup>2</sup></button>
+            <button id="BotonPEnt">Ent</button>
+            <button id="BotonNFact">n!</button>
+            <button id="BotonCsvE">csv.Ʃ</button>
+            <button id="BotonCsvProd">csv.*</button>
+            <button id="BotonCls">C</button>
+            <button type="button" class="btn btn-light" onclick="pasar()" value="ToM">ToM</button>
+            <button type="button" class="btn btn-light" onclick="devolver()" value="FromM">From</button>
+        </p>
+    </div>
+    The page has been visited <span id="cuenta"></span>times <br>
+      <script src="js/zepto.min.js"></script>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js.js" ></script>
+      <script src="js/mi-js.js"></script>
+</body>
+</html>

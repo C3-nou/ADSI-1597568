@@ -1,0 +1,65 @@
+
+    @font-face {
+        font-family: "RobotoCondensed";
+        src: url(../fonts/RobotoCondensed-Regular.ttf);
+    }
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100vh;
+}
+    
+.primero{
+    font-family: 'RobotoCondensed', sans-serif;
+    background-color:grey;
+    flex-grow: 1;
+    background-image: none;
+}
+.segundo{
+    font-family: 'RobotoCondensed', sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    flex-grow: 120;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+}
+.imagen{
+    padding: 0%;
+    margin: 0%;
+    height: 20rem;
+}
+
+.card{
+    color: black;
+    width: 2rem;
+    height: 2rem;
+}
+
+.elemento2{
+    float: left;
+    margin: 1em;
+}
+.elemento3{
+    width: 12rem;
+    height: 8rem;
+    float: left;
+    margin: 1em;
+}
+.descarga{
+    color: black;
+}
+.encabezado{
+    text-align: center;
+}
+
+
+@media (max-width: 767.98px){
+    body{
+        flex-direction: column;
+    }
+}
