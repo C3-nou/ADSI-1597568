@@ -1,0 +1,28 @@
+body {
+	background-color: brown;
+	font-family: 'Lobster', cursive; 
+	color: white;
+	font-size: 23px;
+}
+
+#texto {
+font-family: 'Merriweather', serif;
+color: white;
+font-size: 18px;
+}
+
+#svg {
+	width: 400px;
+	height: 600%;
+}
+#degradado {
+border-radius: 24px 24px 24px 24px;
+-moz-border-radius: 24px 24px 24px 24px;
+-webkit-border-radius: 24px 24px 24px 24px;
+border: 0px solid #000000;
+
+background: -webkit-linear-gradient(black, blue); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(black, blue); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(black, blue); /* For Firefox 3.6 to 15 */
+background: linear-gradient(black, blue); /* Standard syntax */
+}

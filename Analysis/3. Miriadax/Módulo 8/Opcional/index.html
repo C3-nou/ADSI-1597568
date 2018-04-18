@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cronómetro</title>
+    <meta charset="UTF-8">
+    <link href="../favicon.ico" rel="favicon" type="shortcut icon">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/touchjs/0.2.14/touch.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:300' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <script type="text/javascript">
+        $(function(){ 
+    var t, cl = $("#crono");
+
+    function mostrar()  { cl.html((+cl.html() + 0.1).toFixed(1)); };
+    function arrancar() { t=setInterval(mostrar, 100);};
+    function parar()    { clearInterval(t);  t=undefined; };
+    function cambiar()  { if (!t) arrancar(); else parar(); };
+
+    $("#crono").on('tap', function(){
+        cambiar();
+    });
+    $("#crono").on('swipe', function(){
+        parar();
+        cl.html("0.0");
+    })
+  });
+    </script>
+    <style>
+        * {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            -ms-user-select: none;
+            cursor: default;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        h2 span {
+            font-size: 2em;
+            color: darkgoldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Cronómetro</h2>
+
+    <h2><span id="crono">0.0</span> segundos</h2>
+</body>
+
+</html>

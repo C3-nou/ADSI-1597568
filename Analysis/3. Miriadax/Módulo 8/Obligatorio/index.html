@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CITAS</title>
+    <link rel="stylesheet" type="text/css" href="css/citas_slide.css" />
+
+    <script type="text/javascript" src="javascript/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="javascript/galeria.js"></script>
+</head>
+
+<body>
+    <div class="contenido">
+        <nav>
+            <ul id="selector"></ul>
+        </nav>
+        <section id="caja">
+            <img id="foto" alt="" />
+            <div class="textos">
+                <p id="frase"></p>
+                <p id="persona"></p>
+            </div>
+        </section>
+        <div class="editar" id="editar">
+            <img src="images/BaseDatos.svg" alt="Base de Datos" id="Base" />
+            <img src="images/edit-white.svg" alt="Editar Cita" id="Edita" />
+        </div>
+        <section id="BaseDatos">
+            <div id="btnJSON"><img src="images/Retornar.svg" alt="Retornar" id="retorno" /><img src="images/Restaurar.svg" alt="Restaurar" id="restaura" /></div><div id=baseJSON></div>
+        </section>
+        <section id="datos">
+            <div contentEditable="true" id="persona_d"></div>
+            <div contentEditable="true" id="frase_d"></div>
+            <div contentEditable="true" id="foto_d"></div>
+            <div id="botones">
+                <ul>
+                    <li><img src="images/edit-black.svg" alt="Editar frase" id="guardar" /></li>
+                    <li><img src="images/plus-black.svg" alt="Agregar frase" id="nuevo" /></li>
+                    <li><img src="images/delete-black.svg" alt="Eliminar frase" id="borrar" /></li>
+
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

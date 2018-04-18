@@ -1,0 +1,62 @@
+#edicion {
+  background-color: aqua;
+}
+#calculadora {
+    width: 350px;
+    border-style: outset;
+    padding: 30px 0 30px 20px;
+    margin: 0 auto;
+    background-color: black;
+   }
+
+#display input {
+    width: 300px;
+    height: 30px;
+    visibility: visible;
+    border-style: inset;
+    padding-left: 16px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.tooltiptext {
+    width: 180px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+#display:hover .tooltiptext {
+    visibility: visible;
+}
+
+#teclas button {
+    width: 60px;
+    height: 60px;
+    color:blue;
+    
+    margin: 2px auto;
+    border: 2px;
+   
+    border-style: outset;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: darkgray;
+}
+
+h1 { 
+    color:white; 
+    padding: 5px; 
+    font-size: 20px;
+	font-weight:100;
+ }
+em { 
+    color:white; 
+    padding: 5px; 
+    font-size: 30px;
+	font-weight:100;
+	
+ }

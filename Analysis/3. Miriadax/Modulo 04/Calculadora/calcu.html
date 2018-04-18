@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora | Miriadax Tutorial | Modulo 4</title>
+    
+    
+    <script>
+      var num, acc = 0, op = "";
+
+      function mas()      { acc = num.value;  op = "+";}
+      function menos()    { acc = num.value;  op = "-";}
+      function mult()     { acc = num.value;  op = "*";}
+      function div()      { acc = num.value;  op = "/";}
+      function pow()      { acc = num.value;  op = "^";}
+      function square()   { acc = num.value;  op = "x2"; calcular();}
+      function sqr_root() { acc = num.value;  op = "sqrt"; calcular();}
+      function inverted() { acc = num.value;  op = "1/x"; calcular();}
+      function whole_num(){ acc = num.value;  op = "whole"; calcular();}
+    
+      function calcular() {
+        if (op === "+") {num.value = (+acc + +num.value)}
+        if (op === "-") {num.value = (+acc - +num.value)}
+        if (op === "*") {num.value = (+acc * +num.value)}
+        if (op === "/") {num.value = (+acc / +num.value)}
+        if (op === "^") {num.value = (Math.pow(+acc, +num.value) )}
+        if (op === "x2") {num.value = (+num.value * +num.value)}
+        if (op === "sqrt") {num.value = (Math.sqrt(+num.value))}
+        if (op === "1/x") {num.value = (1/(+num.value))}
+        if (op === "whole") {
+          if(+num.value < 0){
+            num.value = Math.ceil(+num.value);
+          }else{
+            num.value = Math.floor(+num.value);  
+          }        
+        }
+        
+        op = "";
+        divOp.value = op;
+        
+      }
+    
+      function inic ()   {num = document.getElementById("num"); divOp=document.getElementById("operator");}
+      function vaciar () {num.value = "";} 
+      function clean(){num.value = ""; divOp.value="";acc = 0, op = ""}
+    </script>
+  </head>
+
+  <body onLoad="inic()">
+  
+  
+    <div id="content">
+      <h1>Buenos días, bienvenido a la calculadora de <br><b>Cristian Camilo Cadavid</b>. </h1>
+      
+      <input type="text" size="12" id="num" onClick="vaciar()">
+      <input type="text" id="operator" disabled>
+      
+      <br><br>
+      <div id="btnContainer">
+        
+        <button onClick="mas()">+</button>
+        <button onClick="menos()">-</button>      
+        <button onClick="calcular()">=</button>
+
+        <button onClick="mult()">*</button>
+        <button onClick="div()">/</button>      
+        <button onClick="pow()">^</button>
+
+        
+        
+        <button onClick="square()">x<sup>2</sup></button>
+        <button onClick="sqr_root()">sqrt(x)</button>
+        <button onClick="clean()">C</button>
+        
+        <button onClick="inverted()">1/x</button>        
+        <button class="big" onClick="whole_num()">parte_entera(x)</button>
+        
+        
+      </div>
+    </div>
+  
+
+  </body>
+  
+</html>

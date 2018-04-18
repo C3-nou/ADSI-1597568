@@ -1,0 +1,42 @@
+<!DOCTYPE html><html>
+<head>
+  <title>P2P obligatorio</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1 id="h1"></h1>
+  <h1 id="autor"></h1>
+  <h2 id="h2">La fecha y la hora son:</h2>
+  <div id="fecha"></div>
+  <br><br>
+  <div id="todos"</div>
+
+
+ <script type="text/javascript">
+  var fecha = new Date();
+  var msj ;
+  var nombre = "Cristian Camilo Cadavid";
+  var a = "Contenido del inner de h2 es: "+document.getElementById("h2").innerHTML+"<br></>";
+  var b = "Contenido del outer del h1 es: "+document.getElementById("h1").outerHTML.replace(/</g, "&lt;")+"<br>";
+  var c = "La location.href es: "+document.location.href+"<br></>"
+  var d = "La location es: "+document.location+"<br></>";
+  var width = "screen.width: "+ screen.width+"<br></>";
+  var height = "screen.height: "+ screen.height;
+
+
+
+  if      (fecha.getHours() < 7)  { msj = "Buenas noches";}
+  else if (fecha.getHours() < 12) { msj = "Buenos días";}
+  else if (fecha.getHours() < 21) { msj = "Buenas tardes";}
+  else                                          { msj = "Buenas noches";}
+
+  document.getElementById("h1").innerHTML    = msj;
+  document.getElementById("fecha").innerHTML = fecha;
+  document.getElementById("autor").innerHTML = nombre;
+  document.getElementById("todos").innerHTML= a+b+c+d+width+height;
+
+  
+</script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<title>picture</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+  <div class="responsive">
+<iframe src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+  
+<picture>
+  <source
+    media="(min-width: 1100px)"
+    srcset="https://nouliet.neocities.org/imagen6.svg">
+<source
+    media="(min-width: 1000px)"
+    srcset="https://nouliet.neocities.org/imagen5.svg">
+  <source
+    media="(min-width: 800px)"
+    srcset="https://nouliet.neocities.org/imagen4.svg">
+  <source
+    media="(min-width: 600px)"
+    srcset="https://nouliet.neocities.org/imagen3.svg">
+  <source
+    media="(min-width: 400px)"
+    srcset="https://nouliet.neocities.org/imagen2.svg">
+    <source
+    media="(min-width: 300px)"
+    srcset="https://nouliet.neocities.org/imagen1.svg">
+  <img
+    src="https://nouliet.neocities.org/imagen1.svg"
+    alt="marvel"
+    height="50%"
+    width="50%"
+    >
+
+
+</picture>
+</body>
+</html>
