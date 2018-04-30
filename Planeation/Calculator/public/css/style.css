@@ -1,0 +1,101 @@
+body{
+  margin: 0%;
+  height: 100vh;
+  color: white;
+  background-color: red;
+  font-family: Verdana;
+}
+
+.number1{
+  margin: 1rem;
+  width: 20rem;
+  height: 3rem;
+  border-radius:20%;
+}
+.operator{
+  margin: 1rem;
+  width: 20rem;
+  height: 3rem;
+}
+.number2{
+  margin: 1rem;
+  width: 20rem;
+  height: 3rem;
+  border-radius:20%;
+}
+
+.result{
+  width: 12rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+@media (max-width: 575.98px) {
+  body{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100vh;
+  }
+  
+  .number1{
+  margin: 2rem;
+  width: 20rem;
+  height: 6rem;
+  border-radius:20%;
+
+}
+.operator{
+  margin: 2rem;
+  width: 25rem;
+  height: 4rem;
+}
+.number2{
+  margin: 2rem;
+  width: 20rem;
+  height: 6rem;
+  border-radius:20%;
+}
+
+.result{
+  margin: 2rem;
+  width: 12rem;
+  height: 3rem;
+}
+}
+
+@media (max-width: 767.98px) {
+  body{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100vh;
+  }
+  
+  .number1{
+  margin: 2rem;
+  width: 20rem;
+  height: 6rem;
+  border-radius:20%;
+
+}
+.operator{
+  margin: 2rem;
+  width: 25rem;
+  height: 4rem;
+}
+.number2{
+  margin: 2rem;
+  width: 20rem;
+  height: 6rem;
+  border-radius:20%;
+}
+
+.result{
+  margin: 2rem;
+  width: 12rem;
+  height: 3rem;
+}
+}
